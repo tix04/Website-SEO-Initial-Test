@@ -1131,3 +1131,8 @@ a svg path {
 a:hover svg path {
     fill: #73acf7;
 }
+
+.bold {
+    font-size: 35px;
+    font-weight: bold;
+}
