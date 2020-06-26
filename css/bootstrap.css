@@ -1406,13 +1406,12 @@ textarea {
 }
 
 a {
-    color: #337ab7;
     text-decoration: none
 }
 
 a:focus,
 a:hover {
-    color: #23527c;
+    color: #73acf7;
     text-decoration: underline
 }
 
@@ -1784,7 +1783,7 @@ a.bg-danger:hover {
 
 ol,
 ul {
-    margin-top: 0;
+    margin-top: .5rem;
     margin-bottom: 10px
 }
 
@@ -2618,7 +2617,7 @@ pre code {
         margin-left: 25%
     }
     .col-md-offset-2 {
-        margin-left: 16.66666667%
+        margin-left: 22.66666667%
     }
     .col-md-offset-1 {
         margin-left: 8.33333333%
@@ -5847,7 +5846,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 
 .label {
     display: inline;
-    padding: .2em .6em .3em;
+    padding: .2em 0 .3em;
     font-size: 75%;
     font-weight: 700;
     line-height: 1;

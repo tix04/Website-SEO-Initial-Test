@@ -18,13 +18,43 @@ a:hover {
     cursor: pointer;
 }
 
+ul {
+    padding-left: 15px;
+}
+
+q {
+    font-size: 14px;
+    font-style: italic;
+}
+.quote {
+    font-size: 14px;
+    width: 85%;
+    line-height: 2.5rem;
+}
+
+.section-description {
+    font-size: 25px;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.about-color {
+    color: #7695FF;
+}
+
+.cta-description {
+    font-size: 25px;
+    color: #f5f5f5;
+    font-weight: bolder;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -90,10 +120,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
+/*.texture-paper::before {                             Erased this for contrast purposes
+    background: url("../img/texture-paper.png");
     background-size: 280px 280px;
-}
+}*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -133,7 +163,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, .85);/*Changed Luminosity to improve contrast requirements*/
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +180,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #73acf7;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -231,7 +261,9 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    transition: all 300ms ease;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -249,7 +281,7 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: #4f62b8;/*Changed hover color to improve contrast*/
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -281,10 +313,6 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
-}
-
-#bloc-2-services p {
-    font-size: 11px;
 }
 
 .navbar {
@@ -325,7 +353,6 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -476,7 +503,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 45px!important;
 }
 
 .icon-lg {
@@ -506,7 +533,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, .5);/*Adjusted Border color for more contrast*/
     box-shadow: none;
 }
 
@@ -516,7 +543,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -647,11 +674,14 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {                           /*Deleted selector a to improve contrast on footer links*/
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #333;
+}
+
+a {
+    color: #fff;
 }
 
 .container {
@@ -659,7 +689,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 45px;
 }
 
 .hero-bloc-text-sub {
@@ -701,11 +731,16 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto 3rem auto; /*Added margin bottom to distinguish between Social Network Icons and Text Below*/
+}
+
+.about-me-title {
+    color: #f5dcdc;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 35px;
+    color: #333;
     line-height: 1.4em;
 }
 
@@ -753,7 +788,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(35, 31, 32, 0.7);
+    background-color: rgba(35, 31, 32, 0.93);
     padding: 40px 40px 40px 40px;
 }
 
@@ -773,7 +808,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #183054;
 }
 
 .bgc-atomic-tangerine {
@@ -781,11 +816,11 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #fff!important; /*Adjuste color to improve contrast*/
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #C34E13;/*Adjusted lightness to improve contrast*/
     color: #FFFFFF!important;
 }
 
@@ -803,7 +838,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #FF7070!important; /*Adjusted Color to improve Contrast*/
 }
 
 .ltc-atomic-tangerine:hover {
@@ -816,19 +851,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("../img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("../img/lines-h2-bg.png");
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("../img/Atlanta\ made\ Sign.webp");/*Compressed the image*//*Tried using WebP image formats*/
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("../img/Atlanta\ Made\ sign\ in\ Orange.webp"); /*Compressed the image*//*Tried using WebP image formats*/
 }
 
 @media (max-width: 1024px) {
@@ -1045,4 +1080,54 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.form {
+    float: none;
+    margin: 0 auto;
+}
+
+.label {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #444;
+}
+
+.textArea-guide {
+    font-size: 1.1rem
+}
+
+.address {
+    width: 100%;
+}
+
+.address p {
+    color: #fff;
+}
+
+.float {
+    float: left;
+    width: 33.3%;
+}
+
+.footer-titles {
+    font-weight: bold;
+    color: #b1acdc;
+    font-size: 1.6rem;
+}
+
+.navText-size {
+    font-size: 2rem;/*Increased font-size for more readability*/
+}
+
+input[placeholder] {
+    font-size: 1.8rem;
+}
+
+a svg path {
+    fill: rgba(255, 255, 255, .85);
+}
+
+a:hover svg path {
+    fill: #73acf7;
 }
