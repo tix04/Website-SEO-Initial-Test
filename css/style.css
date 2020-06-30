@@ -1126,6 +1126,10 @@ input[placeholder] {
     font-size: 1.8rem;
 }
 
+svg {
+    text-align: center;
+}
+
 a svg path {
     fill: rgba(255, 255, 255, .85);
 }
