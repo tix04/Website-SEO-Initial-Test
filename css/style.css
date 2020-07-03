@@ -768,3 +768,9 @@ a:hover svg path {
     font-size: 35px;
     font-weight: bold;
 }
+
+.col-sm-3 {
+    float: left;
+    padding: 0 10px;
+    width: 25%;
+}
