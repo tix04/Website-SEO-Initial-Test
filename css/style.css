@@ -26,6 +26,7 @@ q {
     font-size: 14px;
     font-style: italic;
 }
+
 .quote {
     font-size: 14px;
     width: 85%;
@@ -101,6 +102,7 @@ q {
     right: 0;
 }
 
+
 /*.texture-paper::before {                             Erased this for contrast purposes
     background: url("../img/texture-paper.png");
     background-size: 280px 280px;
@@ -128,7 +130,8 @@ q {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .85);/*Changed Luminosity to improve contrast requirements*/
+    color: rgba(255, 255, 255, .85);
+    /*Changed Luminosity to improve contrast requirements*/
 }
 
 .d-bloc .panel,
@@ -171,7 +174,8 @@ q {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: #4f62b8;/*Changed hover color to improve contrast*/
+    color: #4f62b8;
+    /*Changed hover color to improve contrast*/
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -191,8 +195,8 @@ q {
     margin-left: 0;
 }
 
-.row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
+.row.row-no-gutters>[class^="col-"],
+.row.row-no-gutters>[class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
 }
@@ -224,13 +228,13 @@ q {
     z-index: 1;
 }
 
-.nav > li {
+.nav>li {
     float: left;
     margin-top: 4px;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
+.nav>li a:hover,
+.nav>li a:focus {
     background: transparent;
 }
 
@@ -299,7 +303,8 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .5);/*Adjusted Border color for more contrast*/
+    border-color: rgba(0, 0, 0, .5);
+    /*Adjusted Border color for more contrast*/
     box-shadow: none;
 }
 
@@ -332,6 +337,7 @@ a[data-lightbox]:hover::before {
     width: 50px;
     height: 50px;
     padding: 3px;
+    /*centered plus sign*/
     margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
@@ -438,7 +444,8 @@ h5,
 h6,
 p,
 label,
-.btn {                           /*Deleted selector a to improve contrast on footer links*/
+.btn {
+    /*Deleted selector a to improve contrast on footer links*/
     font-family: "helvetica";
     font-weight: 400;
     color: #333;
@@ -476,7 +483,8 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto 3rem auto; /*Added margin bottom to distinguish between Social Network Icons and Text Below*/
+    margin: auto auto 3rem auto;
+    /*Added margin bottom to distinguish between Social Network Icons and Text Below*/
 }
 
 .about-me-title {
@@ -553,11 +561,13 @@ h1 {
 }
 
 .tc-white {
-    color: #fff!important; /*Adjuste color to improve contrast*/
+    color: #fff!important;
+    /*Adjuste color to improve contrast*/
 }
 
 .btn-atomic-tangerine {
-    background: #C34E13;/*Adjusted lightness to improve contrast*/
+    background: #C34E13;
+    /*Adjusted lightness to improve contrast*/
     color: #FFFFFF!important;
 }
 
@@ -575,7 +585,8 @@ h1 {
 }
 
 .ltc-atomic-tangerine {
-    color: #FF7070!important; /*Adjusted Color to improve Contrast*/
+    color: #FF7070!important;
+    /*Adjusted Color to improve Contrast*/
 }
 
 .ltc-atomic-tangerine:hover {
@@ -596,11 +607,15 @@ h1 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("../img/Atlanta\ made\ Sign.webp");/*Compressed the image*//*Tried using WebP image formats*/
+    background-image: url("../img/Atlanta\ made\ Sign.webp");
+    /*Compressed the image*/
+    /*Tried using WebP image formats*/
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("../img/Atlanta\ Made\ sign\ in\ Orange.webp"); /*Compressed the image*//*Tried using WebP image formats*/
+    background-image: url("../img/Atlanta\ Made\ sign\ in\ Orange.webp");
+    /*Compressed the image*/
+    /*Tried using WebP image formats*/
 }
 
 @media (max-width: 1024px) {
@@ -699,7 +714,6 @@ h1 {
     }
 }
 
-
 .label {
     font-size: 1.6rem;
     font-weight: bold;
@@ -730,7 +744,8 @@ h1 {
 }
 
 .navText-size {
-    font-size: 2rem;/*Increased font-size for more readability*/
+    font-size: 2rem;
+    /*Increased font-size for more readability*/
 }
 
 input[placeholder] {
