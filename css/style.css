@@ -311,6 +311,7 @@ button {
 .scrollToTop {
     width: 40px;
     height: 40px;
+    padding: 7px;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -337,7 +338,6 @@ a[data-lightbox]:hover::before {
     width: 50px;
     height: 50px;
     padding: 3px;
-    /*centered plus sign*/
     margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
