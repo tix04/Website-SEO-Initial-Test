@@ -4997,6 +4997,16 @@ button.close {
     line-height: 1;
 }
 
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 @media all and (transform-3d),
 (-webkit-transform-3d) {
     .carousel-inner>.item {
