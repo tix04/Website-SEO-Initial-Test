@@ -246,6 +246,7 @@ html {
   .thumbnail a > img,
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {   /*Centered portfolio image for mobile view*/
+    display: block;
     max-width: 100%;
     height: auto;
   }
