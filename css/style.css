@@ -724,17 +724,15 @@ h1 {
     font-size: 1.1rem
 }
 
+@media (max-width: 767px) {
 .address {
-    width: 100%;
-}
-
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    }
 .address p {
-    color: #fff;
-}
-
-.float {
-    float: left;
-    width: 33.3%;
+    display: block;
+} 
 }
 
 .footer-titles {
