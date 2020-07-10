@@ -20,6 +20,7 @@ a:hover {
 
 ul {
     padding-left: 15px;
+    margin-top: .5rem;
 }
 
 q {
@@ -533,7 +534,7 @@ h1 {
 }
 
 .black-background {
-    background-color: rgba(35, 31, 32, 0.93);
+    background-color: rgba(35, 31, 32, 0.97);
     padding: 40px 40px 40px 40px;
 }
 
@@ -585,7 +586,7 @@ h1 {
 }
 
 .ltc-atomic-tangerine {
-    color: #FF7070!important;
+    color: #ad0a0a!important;
     /*Adjusted Color to improve Contrast*/
 }
 
@@ -750,8 +751,8 @@ h1 {
 
 .footer-titles {
     font-weight: bold;
-    color: #b1acdc;
-    font-size: 1.4rem;
+    color: #c8c1ff;
+    font-size: 1.5rem;
 }
 
 .navText-size {
