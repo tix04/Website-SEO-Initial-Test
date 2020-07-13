@@ -4,7 +4,7 @@ button{transition:all .3s ease-in-out;outline:none!important;}
 a:hover{text-decoration:none;cursor:pointer;}
 ul{padding-left:15px;margin-top:.5rem;}
 q{font-size:14px;font-style:italic;}
-.quote{font-size:14px;width:85%;line-height:2.5rem;}
+.quote{font-size:14px;width:85%;margin:0 auto;line-height:2.5rem;}
 .section-description{font-size:25px;line-height:3rem;text-align:center;}
 .bloc{width:100%;clear:both;background:50% 50% no-repeat;padding:0 50px;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;position:relative;}
 .bloc .container{padding-left:0;padding-right:0;}
