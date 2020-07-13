@@ -152,12 +152,12 @@ h1{color:#333333!important;}
 .bgc-dark-slate-blue{background-color:#183054;}
 .bgc-atomic-tangerine{background-color:#F3976C;}
 .tc-white{color:#fff!important;}
-.btn-atomic-tangerine{background:#C34E13;color:#FFFFFF!important;}
-.btn-atomic-tangerine:hover{background:#c27956!important;color:#FFFFFF!important;}
+.btn-atomic-tangerine{background:#e04e04;;color:#FFFFFF!important;}
+.btn-atomic-tangerine:hover{background:#f5f0ee!important;color:#ff5604!important;border:#ff5604 solid 2px;}
 .ltc-white{color:#FFFFFF!important;}
 .ltc-white:hover{color:#cccccc!important;}
 .ltc-atomic-tangerine{color:#ad0a0a!important;}
-.ltc-atomic-tangerine:hover{color:#c27956!important;}
+.ltc-atomic-tangerine:hover{color:#f8560b!important;}
 .icon-dark-slate-blue{color:#364577!important;border-color:#364577!important;}
 .bg-dots-bg{background-image:url("../img/dots-bg.png");}
 .bg-lines-h2-bg{background-image:url("../img/lines-h2-bg.png");}
