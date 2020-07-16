@@ -223,3 +223,5 @@ a:hover svg path{fill:#73acf7;}
 }
 @media (max-width:767px){.nav > li{margin-top:0;border-bottom:1px solid rgba(0, 0, 0, .1);background:rgba(0, 0, 0, .05);text-align:left;padding-left:15px;width:100%;}
 }
+@media (max-width: 625px){ul{margin-left:0;}
+}
